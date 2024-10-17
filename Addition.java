@@ -11,11 +11,11 @@ public class Addition
 		Scanner sc = new Scanner(System.in);
 		//System.out.println(sc);
 		System.out.println("\n Please enter 2 no");
-		int no1 = sc.nextInt();
-		int no2 = sc.nextInt();
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
 		
 		Addition addNumbers = new Addition();
-		int sum = addNumbers.add(no1, no2);
+		int sum = addNumbers.add(num1, num2);
 		System.out.println("\n Sum =" + sum);
 		sc.close();
 		
